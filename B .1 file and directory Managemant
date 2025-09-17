@@ -1,1 +1,19 @@
-
+pwd                 # Show current directory
+ls                  # List files
+ls -l               # List with details
+ls -a               # Show hidden files
+cd foldername       # Change directory
+cd ..               # Go back one directory
+mkdir newfolder     # Create a new folder
+rmdir foldername    # Remove empty folder
+rm -r foldername    # Remove folder with files
+touch file.txt      # Create empty file
+cp file1 file2      # Copy file
+cp -r folder1 folder2  # Copy folder
+mv file1 file2      # Move or rename file
+rm file.txt         # Delete file
+cat file.txt        # Show file content
+less file.txt       # View file page by page
+head file.txt       # Show first 10 lines
+tail file.txt       # Show last 10 lines
+tail -f logfile     # Live view of file (useful for logs)
