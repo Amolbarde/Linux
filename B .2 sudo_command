@@ -1,0 +1,28 @@
+sudo-
+The sudo command is one of the most important and powerful tools in Ubuntu (and other Unix-like systems).
+It stands for "superuser do" and allows a permitted user to execute a command as another user, typically the root user.
+
+* basic syntax
+amol@amol-HP-ProBook-440-G3:~$ sudo [options] command
+
+*Example
+
+amol@amol-HP-ProBook-440-G3:~$ sudo apt update
+
+amol@amol-HP-ProBook-440-G3:~$ sudo apt upgread
+
+* use case
+
+| Task              | Command                               |
+| ----------------- | ------------------------------------- |
+| Update packages   | `sudo apt update && sudo apt upgrade` |
+| Edit system files | `sudo nano /etc/fstab`                |
+| Restart services  | `sudo systemctl restart nginx`        |
+| Install packages  | `sudo apt install package-name`       |
+| Mount drives      | `sudo mount /dev/sdX /mnt`            |
+| Change ownership  | `sudo chown user:user file`           |
+
+-------------------------------------------------------------------------------------
+* Run as Another User
+
+amol@amol-HP-ProBook-440-G3:~$ sudo -u username command
