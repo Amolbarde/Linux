@@ -17,3 +17,5 @@ less file.txt       # View file page by page
 head file.txt       # Show first 10 lines
 tail file.txt       # Show last 10 lines
 tail -f logfile     # Live view of file (useful for logs)
+touch               # create txt file
+
